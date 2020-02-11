@@ -1,0 +1,32 @@
+
+
+div > p
+{
+    background-color: greenyellow;
+}
+
+.Snap + p
+{
+    background-color: royalblue;
+}
+
+.Insta p{
+    background-color: gray;
+}
+
+a:hover {
+    color: #FF00FF;
+  }
+
+  a:active {
+    color: #00FF00;
+  }
+  
+  p::first-letter {
+    color: Red;
+    font-variant: small-caps;
+  }
+  
+  [class^="Job"] {
+    background: pink;
+  }
