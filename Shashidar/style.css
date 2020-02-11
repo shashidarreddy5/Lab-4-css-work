@@ -1,0 +1,102 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    width: 80%;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+  
+
+
+  
+/* -------------------------------   Pseudo-class Examples  ------------------------------*/
+
+
+  /* unvisited link */
+a:link {
+    color: blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  /* To put border on table page images */
+
+[title~=picture] {
+    border: 5px solid #a0a0a0;
+  }
+  
+  
+  
+  /* -------------------------------   Combinator example   ------------------------------*/
+  /* Customizing all the Heading level two tags under article tag on table page */
+  
+  article > h2 {
+    color: black;
+    font-family: fantasy;
+  }
+  
+  
+/* -------------------------------   Attribute example   ------------------------------*/
+/* To put border on table page images */
+
+[title~=Picture] {
+    border: 5px solid #a0a0a0;
+  }
+  
+  
+
+  /* -------------------------------   Selectors  Examples  ------------------------------*/
+
+/* element selector */
+p {
+    color: grey;
+    font-size: 19px;
+  }
+  
+  /* Id selector */
+  a#purchase {
+    color: #540202;
+    font-style: oblique;
+    text-decoration: line-through;
+}
+
+a.shashi {
+    color: blueviolet;
+    font-size: 12px;
+}
+
+
+
+  
+  
+  
+ 
+  
+  
+    
